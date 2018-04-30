@@ -57,6 +57,7 @@ main{
         }
     }
 
+    // Works Section
     .workText{
         h2{
             font-family: $secondFont;
@@ -69,6 +70,11 @@ main{
 
     .workContainer{
         background: $fifthColor;
+        margin-bottom: 5%;
+        .workBox{
+            width: 50%;
+            float: left;
+        }
     }
 
     // About Section
