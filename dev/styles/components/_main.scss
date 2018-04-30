@@ -80,7 +80,7 @@ main{
             color: $fourthColor;
             font-weight: 700;
             font-size: 60px;
-            padding-left: 15%;
+            text-align: center;
         }
         p{
             font-family: $baseFont;
@@ -93,12 +93,27 @@ main{
     }
 
     // Skills Container
+    .skillsBox{
+       p{
+        font-family: $secondFont;
+        color: $fourthColor;
+        font-weight: 700;
+        font-size: 60px;
+        margin: 0;
+       }
+    }
+
+    .skillsContainer{
+        background: rgb(214,181,250);
+    }
+
     .skillsIcon{
         i{
-            font-size: 80px;
+            font-size: 36px;
             color: $thirdColor;
         }
     }
+
     .contactText{
         background: rgb(121,119,245);
         h5{
