@@ -1,0 +1,114 @@
+main{
+    .designMotto{
+        i{
+            font-size: 20px;
+            color: $thirdColor;
+            padding-left: 50%;
+        }
+        p{
+            font-family: $thirdFont;
+            font-size: $regularSize;
+            font-weight: 300;
+            color: $thirdColor;
+            text-align: center;
+        }
+    }
+
+    .designTextContainer{
+        h3{
+            font-family: $secondFont;
+            font-weight: 700;
+            font-size: 60px;
+            color: $fourthColor;
+            margin: 0px;
+        }
+    }
+
+    .designContainer{
+        background: rgb(46,102,235);
+        .designAim{
+            width: 33.33%;
+            float: left;
+        }
+
+        i{
+            font-size: 57px;
+            color: $firstColor;
+            padding-left: 40%;
+            padding-top: 20%;
+        }
+        h5{
+            font-family: $secondFont;
+            font-size: $smallSize;
+            font-weight: 700;
+            color: $firstColor;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        p{
+            font-family: $baseFont;
+            font-size: $smallSize;
+            font-weight: 300;
+            color: $firstColor;
+            text-align: center;
+            line-height: 1.5;
+            padding: 30px 30px;
+        }
+    }
+
+    .workText{
+        h2{
+            font-family: $secondFont;
+            font-size: 60px;
+            font-weight: 700;
+            color: $fourthColor;
+            margin: 0px;
+        }
+    }
+
+    .workContainer{
+        background: $fifthColor;
+    }
+
+    // About Section
+    .aboutBox{
+        width: 50%;
+        float: left;
+        h3{
+            font-family: $secondFont;
+            color: $fourthColor;
+            font-weight: 700;
+            font-size: 60px;
+            padding-left: 15%;
+        }
+        p{
+            font-family: $baseFont;
+            font-weight: 300;
+            font-size: $regularSize;
+            color: $thirdColor;
+            line-height: 1.5;
+            padding: 0px 10%;
+        }
+    }
+
+    // Skills Container
+    .skillsIcon{
+        i{
+            font-size: 80px;
+            color: $thirdColor;
+        }
+    }
+    .contactText{
+        background: rgb(121,119,245);
+        h5{
+            font-family: $secondFont;
+            font-weight: 700;
+            font-size: $regularSize;
+            text-transform: uppercase;
+            color: $firstColor;
+            text-align: center;
+            padding: 40px 0px;
+        }
+    }
+}

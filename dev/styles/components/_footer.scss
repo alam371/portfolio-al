@@ -1,0 +1,16 @@
+.footerIcons{
+    i{
+        font-size: 30px;
+        color: $thirdColor;
+    }
+}
+
+.copyright{
+    p{
+        font-family: $baseFont;
+        font-weight: 300;
+        font-size: $smallSize;
+        color: $thirdColor;
+        text-align: center;
+    }
+}

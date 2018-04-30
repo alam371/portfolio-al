@@ -2,20 +2,17 @@ $baseFont:'Source Sans Pro', sans-serif;
 $secondFont: 'Montserrat', sans-serif;
 $thirdFont: 'Merriweather', serif;
 
-// Purples
-$firstColor: rgb(116,0,243);
-$secondColor: rgb(127,1,253);
-$thirdColor: rgb(77,21,66);
+
 // Pinks
-$fourthColor:rgb(219,130,170);
-$fifthColor:rgb(170,79,123);
+$fourthColor:rgb(232,54,154);
+$fifthColor:rgb(238,111,46);
 $sixthColor: rgb(184, 48, 66);
 // Blues
 $seventhColor: rgb(0,39,209);
 // Neutrals
-$eighthColor: rgb(255, 255, 255);
-$ninethColor: rgb(17, 14, 31);
-$tenthColor:rgb(78, 76, 78);
+$firstColor: rgb(255, 255, 255);
+$secondColor: rgb(17, 14, 31);
+$thirdColor:rgb(78, 76, 78);
 
 // Font Sizes
 $biggestSize: 40px;
@@ -40,7 +37,7 @@ img{
 }
 
 .maxWrapper{
-  width: 1800px;
+  width: 95%;
   margin: 0 auto;
 }
 

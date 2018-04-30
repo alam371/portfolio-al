@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Angeline Lam</title>
+	<link rel="SHORTCUT ICON" href="assets/angelineLogo2.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./public/styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300i|Montserrat:400,700|Source+Sans+Pro:400,700" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
@@ -11,14 +12,19 @@
 </head>
 <body>
 	<header>
-		<section>
-			<div>
+		<section class="headerContainer">
+			<div class="headerName minWrapper">
 				<h4>Angeline Lam</h4>
 			</div>
-			<section>
-					<div class="headerNavContainer">
+			<section class="headerNav">
+					<div class="headerNavContainer minWrapper">
 							<div class="headerNavBoxBurger" id="home">
 								<nav role="navigation">
+										<ul>
+											<li class="word">
+												<a href="#about">About</a>
+											</li>
+										</ul>
 									<div id="menuToggle">
 										<input type="checkbox" />
 										<span></span>
@@ -40,22 +46,28 @@
 										</ul>
 									</div>
 								</nav>
-						</div>
-						<img class="logo" src="assets/angelineLogo2-white.png" alt="logo of Angeline Lam">
-						</div>
+								
+					<!-- <div class="headerLogo">
+						<p>Info</p>
+						<img class="logo" src="assets/angelineLogo2.png" alt="logo of Angeline Lam">
+					</div> -->
 			</section>
-			<section>
-				<img src="assets/alesia-kazantceva-298664-unsplash.jpg" alt="image of jellyfishes">
-				<h1>Angeline</h1>
-				<h1>Lam</h1>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+			<section class="heroImage">
+				<div class="maxWrapper">
+					<img src="assets/joshua-coleman-640148-unsplash copy.jpg" alt="image of jellyfishes">
+				</div>
+				<div class="heroText minWrapper">
+					<h1>Angeline Lam</h1>
+					<h2>Web Developer</h2>
+					<p>"Design is the silent ambassador"</p>
+				</div>
 			</section>
-			<section>
-				<div>
+			<section class="headerContactContainer minWrapper">
+				<div class="headerContactBox1">
 					<a href="mailto:hello@angelinelam.com"><i class="far fa-envelope"></i></a>
 					<a href="mailto:hello@angelinelam.com">hello@angelinelam.com</a>
 				</div>
-				<div>
+				<div class="headerContactBox2">
 					<a href="https://www.linkedin.com/in/angeline-lam-490398b/"><i class="fab fa-linkedin-in"></i></a>
 					<a href="https://twitter.com/AngelineLam"><i class="fab fa-twitter"></i></a>
 					<a href="https://medium.com/@lam.angeline"><i class="fab fa-medium"></i></a>
@@ -66,41 +78,42 @@
 	</header>
 	<main>
 		<section class="designMotto minWrapper">
-			<i class="fal fa-arrow-up"></i>
-			<p>"Design is the silent ambassador"</p>
-			<i class="fal fa-arrow-down"></i>
+			<i class="fas fa-arrow-up"></i>
+			<p>To create something exceptional, your mindset must be relentlessly focused on the smallest detail.</p>
+			<i class="fas fa-arrow-down"></i>
 		</section>
 
-		<section class="designContainer maxWrapper">
+		<section class="designTextContainer minWrapper">
+			<div>
+				<h3>Key Experiences</h3>
+			</div>
+		</section>
+
+		<section class="designContainer maxWrapper clearfix">
 			<div class="designBox minWrapper">
-				<div>
-					<h3>Focus and Goals</h3>
+				<div class="designAim">
+					<i class="fas fa-heart"></i>
+					<h5>Design & Develop</h5>
+					<p>Focus on bringing delightful user app experiences.</p>
 				</div>
-				<div>
-					<div>
-						<i></i>
-						<h5>Always in the Game</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-					<div>
-						<i></i>
-						<h5>Always in the Game</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-					<div>
-						<i></i>
-						<h5>Always in the Game</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
+				<div class="designAim">
+					<i class="fas fa-handshake"></i>
+					<h5>Team Work</h5>
+					<p>Passion for collaboration and building amazing apps with designers and colleagues.</p>
+				</div>
+				<div class="designAim">
+					<i class="fas fa-code"></i>
+					<h5>Clean Code</h5>
+					<p>Implementing and maintaining scalable code.</p>
 				</div>
 			</div>
 		</section>
 
-		<section>
+		<section class="works">
 			<div class="workText minWrapper">
 				<h2>Works</h2>
 			</div>
-			<div class="workContainer">
+			<div class="workContainer maxWrapper">
 				<div>
 					<img src="assets/spaceX-desktop.png" alt="">
 				</div>
@@ -112,44 +125,43 @@
 				</div>
 				<div>
 					<img src="assets/mockup-desktop-computer-black.png" alt="">
-					<!-- cohor17 -->
 				</div>
 				<div>
 					<!-- indeedapi -->
 				</div>
 			</div>
 		</section>
-		<section>
-			<div>
-				<img src="" alt="">
-			</div>
-			<div>
+
+		<section class="aboutContainer maxWrapper">
+			<div class="aboutBox">
 				<div>
+					<div>
+						<h5>Branding</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+					</div>
+					<div>
+						<h5>Branding</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+					</div>
+					<div>
+						<h5>Branding</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+					</div>
+					<div>
+						<h5>Branding</h5>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="aboutBox">
 					<h3>About me</h3>
-					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
+					<p>I'm a Toronto based front-end developer. Prior to becoming a front-end developer, I was a fashion designer where I excelled in creating designs with clean and beautiful details. My love and knowledge of design and code empowers me to build amazing web experiences and apps.</p>
+					<p>When I'm not coding, you can find me training for half-marathons, reading the New Yorker and taking photos of our amazing city.</p>
 				</div>
-				<div>
-					<div>
-						<h5>Branding</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-					<div>
-						<h5>Branding</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-					<div>
-						<h5>Branding</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-					<div>
-						<h5>Branding</h5>
-						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, consectetur.</p>
-					</div>
-				</div>
-			</div>
 		</section>
 		<section>
-			<div class="">
+			<div class="skillsIcon minWrapper">
 					<i class="devicon-html5-plain devicon"></i>
 					<i class="devicon-sass-original devicon"></i>
 					<i class="devicon-css3-plain devicon"></i>
@@ -160,27 +172,27 @@
 					<i class="devicon-github-plain devicon"></i>
 				</div>
 		</section>
-		<section>
+		<section class="contactText maxWrapper">
 			<h5>Get in Touch!</h5>
 		</section>
 	</main>
 	<footer>
-		<section>
-				<p>© Copyright Angeline Lam 2018 | All Rights Reserved.</p>
+		<section class="footerIcons minWrapper">
+			<a target="_blank" href="https://www.linkedin.com/in/angeline-lam-490398b/">
+				<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a target="_blank" href="https://twitter.com/AngelineLam">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a target="_blank" href="https://medium.com/@lam.angeline">
+				<i class="fab fa-medium"></i>
+			</a>
+			<a target="_blank" href="https://medium.com/@lam.angeline">
+				<i class="fab fa-github"></i>
+			</a>
 		</section>
-		<section>
-				<a target="_blank" href="https://www.linkedin.com/in/angeline-lam-490398b/">
-					<i class="fab fa-linkedin-in"></i>
-				</a>
-				<a target="_blank" href="https://twitter.com/AngelineLam">
-					<i class="fab fa-twitter"></i>
-				</a>
-				<a target="_blank" href="https://medium.com/@lam.angeline">
-					<i class="fab fa-medium"></i>
-				</a>
-				<a target="_blank" href="https://medium.com/@lam.angeline">
-					<i class="fab fa-github"></i>
-				</a>
+		<section class="copyright minWrapper">
+				<p>© Copyright Angeline Lam 2018 | All Rights Reserved.</p>
 		</section>
 		<section></section>
 	</footer>
