@@ -76,8 +76,8 @@ a:hover
 {
   display: block;
   position: absolute;
-  top: 50px;
-  right: 50px;
+  top: 3%;
+  right: 5%;
   
   z-index: 1;
   
@@ -216,14 +216,15 @@ a:hover
         letter-spacing: 5px;
     }
 }
+
 // Styling for Hero Image and Text
 .heroImage{
     position: relative;
     text-align: center;
     .heroText{
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 40%;
+      left: 65%;
       transform: translate(-50%, -50%);
 
       h1{
@@ -277,18 +278,3 @@ a:hover
   }
 
 }
-
-// .main-nav li {
-//   letter-spacing: 2px;
-//   text-transform: uppercase;
-//   font-weight: 500;
-//   -webkit-transform: rotate(-90deg);
-//   transform: rotate(-90deg);
-//   padding-top: 20px;
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: flex;
-//   -webkit-box-align: center;
-//   -ms-flex-align: center;
-//   align-items: center;
-// }

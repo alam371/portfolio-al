@@ -74,6 +74,36 @@ main{
         .workBox{
             width: 50%;
             float: left;
+            h4{
+                font-family: $secondFont;
+                font-size: $bigSize;
+                font-weight: 700;
+                color: $firstColor;
+                letter-spacing: 2px;
+                text-align: left;
+            }
+            span{
+                font-family: $baseFont;
+                font-size: $tinySize;
+                font-weight: 700;
+                color: $thirdColor;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            p{
+                font-family: $baseFont;
+                font-size: $regularSize;
+                font-weight: 300;
+                color: $firstColor;
+                text-align: left;
+            }
+        }
+        .workInfo{
+            padding: 7%;
+        }
+        .workImage{
+            padding: 1%;
         }
     }
 
@@ -87,6 +117,7 @@ main{
             font-weight: 700;
             font-size: 60px;
             text-align: center;
+            margin: 0;
         }
         p{
             font-family: $baseFont;
@@ -96,6 +127,37 @@ main{
             line-height: 1.5;
             padding: 0px 10%;
         }
+    }
+
+    .ange{
+        padding: 0% 8%;
+    }
+    .aboutSkill{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .aboutInfo{
+        width: 50%;
+        padding: 2%;
+        h5{
+            font-family: $secondFont;
+            font-size: $smallSize;
+            font-weight: 700;
+            color: $fourthColor;
+            letter-spacing: 2px;
+            text-align: left;  
+        }
+        h6{
+            font-family: $baseFont;
+            font-size: $tinySize;
+            font-weight: 300;
+            color: $thirdColor;
+            letter-spacing: 2px;
+            text-align: left; 
+            line-height: 1.5;
+        }
+
     }
 
     // Skills Container
@@ -111,15 +173,25 @@ main{
 
     .skillsContainer{
         background: rgb(214,181,250);
+        padding: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .skillsIcon{
+        display: flex;
+        width: 60%;
         i{
-            font-size: 36px;
+            font-size: 47px;
             color: $thirdColor;
+            padding-left: 3%;
+            padding-right: 3%;
+
         }
     }
 
+    // Contact Section
     .contactText{
         background: rgb(121,119,245);
         h5{
