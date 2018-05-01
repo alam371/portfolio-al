@@ -1,7 +1,34 @@
+// .skillsContainer{
+//     background: rgb(214,181,250);
+//     padding: 3%;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-bottom: 7%;
+// }
+
+// .skillsIcon{
+//     display: flex;
+//     width: 60%;
+//     i{
+//         font-size: 47px;
+//         color: $thirdColor;
+//         padding-left: 3%;
+//         padding-right: 3%;
+//     }
+
 .footerIcons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15%;
+}
+
+.footerBox{
     i{
         font-size: 24px;
         color: $thirdColor;
+        padding-left: 3%;
     }
 }
 
@@ -12,5 +39,6 @@
         font-size: $smallSize;
         color: $thirdColor;
         text-align: center;
+        margin-top: 7%;
     }
 }

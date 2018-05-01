@@ -1,5 +1,6 @@
 main{
     .designMotto{
+        margin-bottom: 13%;
         i{
             font-size: 20px;
             color: $thirdColor;
@@ -18,7 +19,7 @@ main{
         h3{
             font-family: $secondFont;
             font-weight: 700;
-            font-size: 60px;
+            font-size: 63px;
             color: $fourthColor;
             margin: 0px;
         }
@@ -26,6 +27,7 @@ main{
 
     .designContainer{
         background: rgb(46,102,235);
+        margin-bottom: 13%;
         .designAim{
             width: 33.33%;
             float: left;
@@ -58,10 +60,14 @@ main{
     }
 
     // Works Section
+    .works{
+        margin-bottom: 13%;
+    }
+
     .workText{
         h2{
             font-family: $secondFont;
-            font-size: 60px;
+            font-size: 63px;
             font-weight: 700;
             color: $fourthColor;
             margin: 0px;
@@ -98,6 +104,20 @@ main{
                 color: $firstColor;
                 text-align: left;
             }
+
+            button{
+                text-decoration: none;
+                border: 1px solid $firstColor;
+                padding: 7px 54px;
+                background: $firstColor;
+                margin-top: 5%;
+            }
+            .draw{
+                font-family: $baseFont;
+                font-size: $regularSize;
+                font-weight: 300;
+                color: $thirdColor;
+            }
         }
         .workInfo{
             padding: 7%;
@@ -108,6 +128,9 @@ main{
     }
 
     // About Section
+    .aboutContainer{
+        margin-bottom: 13%;
+    }
     .aboutBox{
         width: 50%;
         float: left;
@@ -115,7 +138,7 @@ main{
             font-family: $secondFont;
             color: $fourthColor;
             font-weight: 700;
-            font-size: 60px;
+            font-size: 63px;
             text-align: center;
             margin: 0;
         }
@@ -166,7 +189,7 @@ main{
         font-family: $secondFont;
         color: $fourthColor;
         font-weight: 700;
-        font-size: 60px;
+        font-size: 63px;
         margin: 0;
        }
     }
@@ -177,6 +200,7 @@ main{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 7%;
     }
 
     .skillsIcon{
@@ -202,6 +226,7 @@ main{
             color: $firstColor;
             text-align: center;
             padding: 40px 0px;
+            letter-spacing: 3px;
         }
     }
 }

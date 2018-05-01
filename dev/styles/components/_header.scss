@@ -1,54 +1,69 @@
-header{
-    .headerNav{
-      display: flex;
-      flex-direction: row;
-      height: 100%;
-    }
+// header{
+//     // .headerNav{
+//     //   display: flex;
+//     //   flex-direction: row;
+//     //   height: 100%;
+//     // }
 
-    .headerNavContainer{
-      display: flex;
-      ul li.word{
-        font-family: $secondFont;
-        font-weight: 700;
-        font-size: $regularSize;
-        color: $secondColor;
-        text-transform: uppercase;
-        text-decoration: none;
-        list-style: none;
-        text-align: center;
-        // margin: 20px;
-        letter-spacing: 5px;
-        transform: rotate(-90deg);
-      }
-    }
+//     // .headerNavContainer{
+//     //   display: flex;
+//     //   ul li.word{
+//     //     font-family: $secondFont;
+//     //     font-weight: 700;
+//     //     font-size: $regularSize;
+//     //     color: $secondColor;
+//     //     text-transform: uppercase;
+//     //     text-decoration: none;
+//     //     list-style: none;
+//     //     text-align: center;
+//     //     // margin: 20px;
+//     //     letter-spacing: 5px;
+//     //     transform: rotate(-90deg);
+//     //   }
+//     // }
     
-    .headerContainer{
-        background: $firstColor;
-        min-height: 800px;
-        margin-bottom: 145px;
-        h1{
-            font-size: 112px;
-            color: $secondColor;
-            margin: 0;
-            text-align: center;
-        }
-        h2{
-           font-size: 85px;
-           color: $secondColor;
-           margin: 0;
-           line-height: 1.2;
-           text-align: center;
-        }
-        h3{
-            font-size: 47px;
-            color: $secondColor;
-            margin: 0;
-            line-height: 1.2;
-            text-align: center;
-        }
-    }
+//     // .headerContainer{
+//     //     background: $firstColor;
+//     //     min-height: 800px;
+//     //     margin-bottom: 145px;
+//     //     h1{
+//     //         font-size: 112px;
+//     //         color: $secondColor;
+//     //         margin: 0;
+//     //         text-align: center;
+//     //     }
+//     //     h2{
+//     //        font-size: 85px;
+//     //        color: $secondColor;
+//     //        margin: 0;
+//     //        line-height: 1.2;
+//     //        text-align: center;
+//     //     }
+//     //     h3{
+//     //         font-size: 47px;
+//     //         color: $secondColor;
+//     //         margin: 0;
+//     //         line-height: 1.2;
+//     //         text-align: center;
+//     //     }
+//     // }
+// }
+
+// Styling for HeaderName
+.headerName{
+  h4{
+      font-family: $secondFont;
+      font-weight: 700;
+      font-size: $regularSize;
+      color: $secondColor;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 20px;
+      letter-spacing: 5px;
+  }
 }
 
+// Burger Nav
 body
 {
   margin: 0;
@@ -203,19 +218,6 @@ a:hover
   opacity: 1;
 }
 
-// Styling for HeaderName
-.headerName{
-    h4{
-        font-family: $secondFont;
-        font-weight: 700;
-        font-size: $regularSize;
-        color: $secondColor;
-        text-transform: uppercase;
-        text-align: center;
-        margin: 20px;
-        letter-spacing: 5px;
-    }
-}
 
 // Styling for Hero Image and Text
 .heroImage{
@@ -261,6 +263,8 @@ a:hover
     float: left;
     width: 50%;
     padding-top: 18px;
+    padding-left: 20%;
+    margin-bottom: 13%;
     a{
       font-size: $smallSize;
       padding-left: 8px;
@@ -271,6 +275,8 @@ a:hover
     float: left;
     width: 50%;
     padding-top: 18px;
+    padding-left: 20%;
+    margin-bottom: 13%;
     a{
       font-size: $smallSize;
       padding-left: 5px;
