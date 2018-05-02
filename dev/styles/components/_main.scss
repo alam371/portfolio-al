@@ -13,6 +13,11 @@ main{
             color: $thirdColor;
             text-align: center;
         }
+
+        .fa-arrow-up,
+        .fa-arrow-down{
+
+        }
     }
 
     .designTextContainer{
@@ -112,6 +117,16 @@ main{
                 background: $firstColor;
                 margin-top: 5%;
             }
+
+            button:hover,
+            button:focus{
+                transition: background-color 0.5s ease;
+                background: $thirdColor;
+                transition: color 0.5s ease;
+                color: $firstColor;
+                transition: border 0.5s ease;
+                border: 1px solid $thirdColor;
+            }
             .draw{
                 font-family: $baseFont;
                 font-size: $regularSize;
@@ -126,7 +141,7 @@ main{
             padding: 1%;
         }
     }
-
+   
     // About Section
     .aboutContainer{
         margin-bottom: 13%;
