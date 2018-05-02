@@ -14,7 +14,7 @@
 <body>
 	<header>
 		<section class="headerContainer">
-			<div class="headerName minWrapper">
+			<div id="home" class="headerName minWrapper">
 				<h4>Angeline Lam</h4>
 			</div>
 			<section class="headerNav">
@@ -60,23 +60,23 @@
 					<a href="mailto:hello@angelinelam.com">hello@angelinelam.com</a>
 				</div>
 				<div class="headerContactBox2">
-					<a href="https://www.linkedin.com/in/angeline-lam-490398b/"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://www.linkedin.com/in/angeline-lam-490398b/"><i class="fab fa-linkedin-in slideInUp"></i></a>
 					<a href="https://twitter.com/AngelineLam"><i class="fab fa-twitter"></i></a>
-					<a href="https://medium.com/@lam.angeline"><i class="fab fa-medium"></i></a>
-					<a href="https://medium.com/@lam.angeline"><i class="fab fa-github"></i></a>
+					<a href="https://medium.com/@lam.angeline"><i class="fab fa-medium slideInUp"></i></a>
+					<a href="https://medium.com/@lam.angeline"><i class="fab fa-github slideInUp"></i></a>
 				</div>
 			</section>
 		</section>
 	</header>
 	<main>
 		<section class="designMotto minWrapper">
-			<i class="fas fa-arrow-up"></i>
+			<a href="#home"><i class="fas fa-arrow-up fa-bounce"></i></a>
 			<p>To create something exceptional, your mindset must be relentlessly focused on the smallest detail.</p>
-			<i class="fas fa-arrow-down"></i>
+			<a href="#key"><i class="fas fa-arrow-down fa-bounce"></i></a>
 		</section>
 
 		<section class="designTextContainer minWrapper">
-			<div class="designTextBox">
+			<div id="key" class="designTextBox">
 				<h3>Key Experiences</h3>
 			</div>
 		</section>
@@ -84,24 +84,24 @@
 		<section class="designContainer maxWrapper clearfix">
 			<div class="designBox minWrapper">
 				<div class="designAim">
-					<i class="fas fa-heart"></i>
+					<i class="fas fa-heart fa-pulse"></i>
 					<h5>Design & Develop</h5>
 					<p>Focus on bringing delightful user app experiences.</p>
 				</div>
 				<div class="designAim">
-					<i class="fas fa-handshake"></i>
+					<i class="fas fa-handshake fa-pulse"></i>
 					<h5>Team Work</h5>
 					<p>Passion for collaboration and building amazing apps with designers and team.</p>
 				</div>
 				<div class="designAim">
-					<i class="fas fa-code"></i>
+					<i class="fas fa-code fa-pulse"></i>
 					<h5>Clean Code</h5>
 					<p>Implementing and maintaining scalable code.</p>
 				</div>
 			</div>
 		</section>
 
-		<section class="works">
+		<section id="work" class="works">
 			<div class="workText minWrapper">
 				<h2>Works</h2>
 			</div>
@@ -205,7 +205,7 @@
 				<img src="assets/2018-Winter-Bootcamp-Angeline-Lam-1 copy.jpg" alt="">
 			</div>
 
-			<div class="aboutBox">
+			<div id="about" class="aboutBox">
 				<div>
 					<h3>About</h3>
 					<p>I'm a Toronto based front-end developer. Prior to becoming a front-end developer, I was a fashion designer where I excelled in creating designs with clean and beautiful details. My love and knowledge of design and code empowers me to build amazing web experiences and apps.</p>
@@ -233,7 +233,7 @@
 		</section>
 
 		<section class="maxWrapper">
-			<div class="skillsBox minWrapper">
+			<div id="skill" class="skillsBox minWrapper">
 				<p>Skills</p>
 			</div>
 		</section>
@@ -252,13 +252,13 @@
 			</div>
 		</section>
 		
-		<section class="contactText maxWrapper">
-			<h5>Get in Touch!</h5>
+		<section id="contact" class="contactText maxWrapper">
+			<a target="_blank" href="mailto:hello@angelinelam.com"><h5>Get in Touch!</h5></a>
 		</section>
 	</main>
+	
 	<footer>
 		<section class="footerIcons maxWrapper">
-			<div class="footerBox">
 				<div class="footerContact minWrapper">
 					<a target="_blank" href="https://www.linkedin.com/in/angeline-lam-490398b/">
 						<i class="fab fa-linkedin-in"></i>
@@ -273,12 +273,29 @@
 						<i class="fab fa-github"></i>
 					</a>
 				</div>
-			</div>
 		</section>
 		<section class="copyright minWrapper">
 				<p>© Copyright Angeline Lam 2018 | All Rights Reserved.</p>
 		</section>
 	</footer>
-	<script src="./public/scripts/app.js"></script>
+	<script src="./public/scripts/app.js">
+
+	$('#up, #down').on('click', function(e){
+        e.preventDefault();
+        var target= $(this).get(0).id == 'up' ? $('#down') : $('#up');
+        $('html, body').stop().animate({
+          scrollTop: target.offset().top
+        }, 1000);
+	});
+	
+	$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+	}, 800);
+	
+	});
+	</script>
 </body>
 </html>

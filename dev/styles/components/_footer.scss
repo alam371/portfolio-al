@@ -1,34 +1,18 @@
-// .skillsContainer{
-//     background: rgb(214,181,250);
-//     padding: 3%;
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-//     margin-bottom: 7%;
-// }
-
-// .skillsIcon{
-//     display: flex;
-//     width: 60%;
-//     i{
-//         font-size: 47px;
-//         color: $thirdColor;
-//         padding-left: 3%;
-//         padding-right: 3%;
-//     }
-
-.footerIcons{
+.footerContact{
     display: flex;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 15%;
-}
-
-.footerBox{
-    i{
+    justify-content: center;
+    a i{
         font-size: 24px;
         color: $thirdColor;
-        padding-left: 3%;
+        padding: 20px;
+    }
+
+    i:hover,
+    i:focus{
+        color: $fourthColor;
     }
 }
 
