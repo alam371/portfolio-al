@@ -1,0 +1,301 @@
+@media (max-width: 1250px){
+    main{
+        .designContainer{
+            width: 95%;
+        }   .designBox{
+            width: 95%;
+        }
+    }
+}
+
+@media (max-width: 1080px){
+    .headerName{
+        h4{
+            text-align: left;
+            margin-left: 5%;
+        }
+    }
+
+    .headerNavContainer{
+        width: 95%;
+    }
+
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 60px;
+            }
+            h2{
+                font-size: 30px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    .headerContactContainer{
+        .headerContactBox1{
+            display: block;
+            width: 100%;
+            padding-left: 5%;
+            margin-bottom: 0%;
+        }
+        .headerContactBox2{
+            display: block;
+            width: 100%;
+            padding-left: 5%;
+            margin-bottom: 10%;
+        }
+    }
+
+    main{
+        .designMotto{
+            width: 90%;
+            margin-bottom: 10%;
+            p{
+                text-align: left;
+                margin-left: 9%;
+            }
+        }
+        .designTextContainer{
+            width: 90%;
+        }
+        .designContainer{
+            .designAim{
+                width: 100%;
+                display: block;
+                i{
+                 padding-left: 46%;
+                 padding-top: 3%;
+                }
+             }
+        }
+        .workText{
+            width: 95%;
+        } 
+        .workContainer{
+            .workBox{
+                width: 95%;
+                display: block;
+            }  
+        }
+        .aboutBox{
+            width: 95%;
+            display: block;
+            .ange{
+                width: 65%;
+            }
+        }
+    }
+    footer{
+        .footerContact{
+            width: 95%;
+        }
+        .copyright{
+            width: 95%;
+        }
+    }   
+    
+}
+
+@media (max-width: 1000px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 74%;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 90%;
+        }
+    }
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 50px;
+            }
+            h2{
+                font-size: 20px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media (max-width: 700px){
+    .headerName{
+        h4{
+            font-size: 16px;
+            margin-left: 3%;
+        }
+    }
+
+    .headerContactContainer{
+        .headerContactBox1{
+            padding-left: 3%;
+        }
+        .headerContactBox2{
+            padding-left: 3%;
+        }   
+    }    
+    main{
+        .designContainer{
+            .designAim{
+                i{
+                 padding-left: 45%;
+                }
+             }
+        }
+    }
+}
+
+@media (max-width: 645px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 107%;
+        }
+    }
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 47px;
+            }
+        }
+    }
+     main{
+        .aboutInfo{
+            width: 100%;
+        }   
+     }
+}
+
+@media (max-width: 540px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 125%;
+        }
+    }
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 37px;
+            }
+        }
+    }
+    main{
+        .designContainer{
+            .designAim{
+                i{
+                 padding-left: 44%;
+                }
+             }
+        }   
+    }    
+}
+
+
+
+@media (max-width: 500px){
+
+    .headerName{
+        h4{
+            font-size: 14px;
+            margin-left: 2%;
+        }
+    } 
+}
+.headerContactContainer{
+    .headerContactBox1{
+        padding-left: 2%;
+    }
+    .headerContactBox2{
+        padding-left: 2%;
+    }   
+}    
+
+@media (max-width: 450px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 143%;
+        }
+    }
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 31px;
+            }
+        }
+    }
+    main{
+        .designMotto{
+            width: 90%;
+            margin-bottom: 10%;
+            p{
+                text-align: left;
+                margin-left: 9%;
+            }
+        }
+
+        .designTextContainer{
+            width: 90%;
+            h3{
+                font-size: 53px;
+            }
+        }
+    }   
+}
+
+@media (max-width: 400px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 155%;
+        }
+    }
+    main{
+        .designContainer{
+            .designAim{
+                i{
+                 padding-left: 41%;
+                }
+             }
+        }   
+    }  
+}
+
+@media (max-width: 380px){
+    .heroImage {
+        .heroText{
+            top: 50%;
+            left: 167%;
+        }
+    }
+
+    .headerNavContainer{
+        width: 95%;
+    }
+
+    .heroImage{
+        .heroText{
+            h1{
+                font-size: 27px;
+            }
+            h2{
+                font-size: 18px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
