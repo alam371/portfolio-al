@@ -151,9 +151,11 @@ main{
     .workContainer{
         background: $fifthColor;
         margin-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         .workBox{
             width: 50%;
-            float: left;
             h4{
                 font-family: $secondFont;
                 font-size: $bigSize;

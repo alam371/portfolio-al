@@ -72,13 +72,17 @@
         }
         .workText{
             width: 95%;
-        } 
+        }
+        
         .workContainer{
             .workBox{
-                width: 95%;
-                display: block;
+                width: 100%;
             }  
         }
+        .workContainer.workColumn{
+            flex-direction: column-reverse;
+        }
+
         .aboutBox{
             width: 95%;
             display: block;
